@@ -1,0 +1,48 @@
+#header {
+height:30px;
+background:#001f3f;
+border:3px solid #CCC;
+width:500px;
+margin:0px auto;
+border-radius: 2px;
+
+
+}
+#thead{
+
+	width:100%;
+	text-decoration: none;
+	font-weight:bold;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	
+
+
+}
+
+
+/* unvisited link */
+#thead a:link {
+    color: #3D9970 ;
+    text-decoration: none;
+}
+
+/* visited link */
+#thead a:visited {
+    color: #3D9970 ;
+   text-decoration: none;
+}
+
+#thead a:hover {
+    color: #35383b;
+    text-decoration: none;
+}
+body{
+background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
+}
