@@ -1,8 +1,7 @@
 <?php 
-$t = "Acasa";
+$t = "Clasament";
 include 'head.php';
 ?>
-
 
 
 </body>
