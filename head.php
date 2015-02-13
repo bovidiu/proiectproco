@@ -13,7 +13,7 @@ session_start();
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="lib/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<title><?php echo $t;?></title>
 </head>
 <body>
@@ -36,9 +36,9 @@ session_start();
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <?php
-			if (!isset($_SESSION['id'])) echo '<li><a href="login.php">Conectare</a></li>';
+			if (!isset($_SESSION['id'])) echo '<li><a href="login.php">Conectare</a></li><li><a href="signup.php">Înregistrare</a></li>';
 			else {
-				echo '<p class="navbar-text">Buna, '.$_SESSION['user'].'</p>';
+				echo '<p class="navbar-text">Bună, '.$_SESSION['user'].'</p>';
 				echo '<li><a href="logout.php">Deconectare</a></li>';
 			}
 		?>
